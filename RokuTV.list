@@ -1,0 +1,32 @@
+# Title: RokuTV
+# Description: Roku 相关域名规则
+# Author: Aethersailor（如有需要可改成自己的 GitHub ID 或其他署名）
+# Project: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# 
+# 本规则清单包含了官方 Roku TV 及部分其生态下使用的域名，如有缺漏或发生域名变动，请自行增补。
+# ------------------------------
+
+# == Roku 官方及相关域名 ==
+DOMAIN-SUFFIX,roku.com
+DOMAIN-SUFFIX,roku.custhelp.com
+DOMAIN-SUFFIX,rokuapis.com
+DOMAIN-SUFFIX,cdn.roku.com
+DOMAIN-SUFFIX,clients.roku.com
+DOMAIN-SUFFIX,my.roku.com
+DOMAIN-SUFFIX,api.roku.com
+DOMAIN-SUFFIX,stun.roku.com
+DOMAIN-SUFFIX,logs.roku.com
+DOMAIN-SUFFIX,roku.boxee.tv
+DOMAIN-SUFFIX,roku.coretv.tv
+
+# == 一些可能与 Roku 生态相关或合作方域名 ==
+DOMAIN-SUFFIX,roku.adobe.io
+DOMAIN-SUFFIX,scribe.logs.roku.com
+DOMAIN-SUFFIX,analytics.scribe.roku.com
+DOMAIN-SUFFIX,rokuext.com
+
+# == 规则示例说明 ==
+# 若你希望所有 Roku TV 的流量都通过代理，可以在上层 Clash 配置中将本清单对应的 ruleset => 你所指定的代理策略组
+# 若想分流至特定代理，可在 OpenClash config.yaml 或类似 GUI 中指定 "RokuTV" => "🚀 节点选择" 等
+
+# EOF
